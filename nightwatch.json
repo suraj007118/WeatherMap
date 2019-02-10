@@ -129,7 +129,7 @@
           }
       },            
       "headlesschrome": {
-          "launch_url": "https://global-sites-qa.mp04497.easn.morningstar.com",
+          "launch_url": "https://openweathermap.org/",
           "browserName": "chrome",
           "desiredCapabilities": {
               "chromeOptions": {
@@ -143,7 +143,7 @@
           "skip_testcases_on_fail": false
       },
       "headlessfirefox": {
-          "launch_url": "https://global-sites-qa.mp04497.easn.morningstar.com",
+          "launch_url": "https://openweathermap.org/",
           "browserName": "firefox",
           "desiredCapabilities": {
               "moz:firefoxOptions": {

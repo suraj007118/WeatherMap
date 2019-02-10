@@ -1,0 +1,51 @@
+#docker-compose file for waetherMap site UI automation test executon in dockerized selenium grid
+#Pulls in the latest selenium hub, chrome and firefox(2.53.1-americium) nodes
+#To Run : npm run docker-run 
+#To stop : docker-compose down
+
+version: '2'
+services:
+  selenium_grid_hub:
+    image: selenium/hub:latest
+    container_name: selenium_grid_hub
+    ports:
+      - "4444:4444"
+    environment:
+      - GRID_TIMEOUT=120000
+      - GRID_BROWSER_TIMEOUT=120000
+      - GRID_THROW_ON_CAPABILITY_NOT_PRESENT=true
+   
+  nodechrome:
+    image: selenium/node-chrome-debug:latest
+    depends_on:
+      - selenium_grid_hub
+    ports:
+      - "5901:5900"
+    environment:
+      - no_proxy=127.0.0.1
+      - HUB_PORT_4444_TCP_ADDR=selenium_grid_hub
+      - HUB_PORT_4444_TCP_PORT=4444
+      - NODE_MAX_INSTANCES=10
+      - NODE_MAX_SESSION=10
+ 
+    volumes:
+      - /dev/shm:/dev/shm
+      - ./data/:/home/client-tests/data
+      - ./downloads:/home/seluser/Downloads
+
+  nodefirefox:
+    image: selenium/node-firefox-debug:2.53.1-americium
+    depends_on:
+      - selenium_grid_hub
+    ports:
+      - "5902:5900"
+    environment:
+      - no_proxy=127.0.0.1
+      - HUB_PORT_4444_TCP_ADDR=selenium_grid_hub
+      - HUB_PORT_4444_TCP_PORT=4444
+      - NODE_MAX_INSTANCES=10
+      - NODE_MAX_SESSION=10
+   
+    volumes:
+      - /dev/shm:/dev/shm
+      - ./downloads:/home/seluser/Downloads  

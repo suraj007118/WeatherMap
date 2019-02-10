@@ -1,5 +1,5 @@
 {
-  "name": "GMP_UI_AUTOMATION",
+  "name": "WeatherMAP_UI_AUTOMATION",
   "version": "1.0.0",
   "description": "This is an end to end node testing framework called nightwatch to test the MMP web application.",
   "main": "globals.js",
@@ -7,9 +7,12 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "nightwatch",
+    "docker-service-down":"docker-compose down",
+    "test": "npm run docker-service-down && nightwatch tests/weatherMapTest.js --env chrome --reporter html-reporter.js",
     "lint": "eslint {utils,tests,testData,pages}/**/*.js",
-    "pre-push": "check-dependencies && npm run lint"
+    "pre-push": "check-dependencies && npm run lint",
+    "docker-service-up":"docker-compose up -d",
+    "docker-run":  "npm run docker-service-up && nightwatch tests/weatherMapTest.js --env chrome --reporter html-reporter.js"
   },
   "author": "",
   "license": "ISC",

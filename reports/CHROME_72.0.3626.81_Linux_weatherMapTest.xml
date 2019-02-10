@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="weatherMapTest"
+    errors="0" failures="0" hostname="" id="" package="weatherMapTest" skipped="0"
+    tests="4" time="44.73" timestamp="Sun, 10 Feb 2019 13:54:59 GMT">
+  
+    <testcase name="TC001:VerifyLaunchPageTest" classname="weatherMapTest" time="11.60" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="TC002:weatherSearchTest" classname="weatherMapTest" time="13.74" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="TC003:invalidWeatherSearchTest" classname="weatherMapTest" time="11.52" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="TC004:Verify navigartion urls of values within &#39;Maps&#39; drop down" classname="weatherMapTest" time="7.867" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
