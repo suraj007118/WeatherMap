@@ -32,16 +32,17 @@ To run the test user below command (with addtional flag --reporter)
 * nightwatch tests/weatherMapTest.js --env chrome --reporter html-reporter.js
 
 ## Test cases covered in smoke suite
+
 * 1. TC001:VerifyLaunchPageTest -
-	scope- Asserts search button, search text, page title and site Logo being most important and must have.
+	* scope- Asserts search button, search text, page title and site Logo being most important and must have.
 	       Also, verifies Labelsd of 9 information links.
 
 * 2.TC002:weatherSearchTest -
-	Scope - Searches for Tokyo, JP and verified search result page for url, search box still displaying entered search test on launch page.
-		Asserts weather result section and existance of certain string.
+	* Scope - Searches for Tokyo, JP and verified search result page for url, search box still displaying entered search test on launch page.Asserts weather result section and existance of certain string.
+		
 
 * 3.TC003:invalidWeatherSearchTest -
-	Scope - Searches for invalid city and asserts alert test message
+	* Scope - Searches for invalid city and asserts alert test message
 
 * 4.TC004:Verify navigartion urls of values within 'Maps' drop down -	
-	Scope - Asserts Sign In and Sign Up links navigation links
+	* Scope - Asserts Sign In and Sign Up links navigation links
