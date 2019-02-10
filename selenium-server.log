@@ -1,0 +1,122 @@
+00:46:34.738 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+00:46:34.738 INFO - Launching a standalone Selenium Server
+2019-02-10 00:46:34.775:INFO::main: Logging initialized @269ms to org.seleniumhq.jetty9.util.log.StdErrLog
+00:46:34.826 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:46:34.826 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+00:46:34.826 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:46:34.827 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+00:46:34.828 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2019-02-10 00:46:34.872:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2019-02-10 00:46:34.921:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2019-02-10 00:46:35.202:INFO:osjs.AbstractConnector:main: Started ServerConnector@f8b31d3{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2019-02-10 00:46:35.202:INFO:osjs.Server:main: Started @697ms
+00:46:35.203 INFO - Selenium Server is up and running
+00:46:35.652 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+00:46:35.670 INFO - Executing: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+00:46:35.681 INFO - Creating a new session for Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1549739796880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\suraj\\AppData\\Local\\Temp\\rust_mozprofile.Req8QP6QaBTX"
+1549739798119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549739798119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549739801684	Marionette	INFO	Listening on port 49795
+1549739801846	Marionette	WARN	TLS certificate errors will be ignored for this session
+00:46:42.022 INFO - Detected dialect: W3C
+00:46:42.049 INFO - Done: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+00:46:42.149 INFO - Executing: [maximise window])
+00:46:42.420 INFO - Done: [maximise window]
+00:46:42.426 INFO - Executing: [get: https://openweathermap.org])
+JavaScript warning: https://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+00:46:51.689 INFO - Done: [get: https://openweathermap.org]
+00:46:51.715 INFO - Executing: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]])
+00:46:51.760 INFO - Done: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]]
+00:46:51.766 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (bb5c0c91-29b1-45d5-af3c-97c65c3d4c59)] -> css selector: div[class='row search-cities'] input[id=q]]])
+00:46:51.818 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (bb5c0c91-29b1-45d5-af3c-97c65c3d4c59)] -> css selector: div[class='row search-cities'] input[id=q]]]
+00:46:51.826 INFO - Executing: [find element: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2)])
+00:46:51.838 INFO - Done: [find element: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2)]
+00:46:51.841 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on ANY (bb5c0c91-29b1-45d5-af3c-97c65c3d4c59)] -> css selector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2)]])
+00:46:52.365 WARN - Exception thrown
+org.openqa.selenium.ElementNotInteractableException: Element <li class="visible-xs"> could not be scrolled into view
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-4J31FUVT', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\suraj\AppData\Local\Temp\rust_mozprofile.Req8QP6QaBTX, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=65.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=18300.0, browserName=firefox, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: bb5c0c91-29b1-45d5-af3c-97c65c3d4c59
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+00:46:52.368 WARN - Exception: Element <li class="visible-xs"> could not be scrolled into view
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-4J31FUVT', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\suraj\AppData\Local\Temp\rust_mozprofile.Req8QP6QaBTX, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=65.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=18300.0, browserName=firefox, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: bb5c0c91-29b1-45d5-af3c-97c65c3d4c59
+00:46:52.712 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:52.720 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:53.236 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:53.264 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:53.784 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:53.808 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:54.325 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:54.360 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:54.870 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:54.886 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:55.401 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:55.431 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:55.948 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:55.973 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:56.487 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:56.506 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:57.019 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:57.033 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:57.543 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:57.552 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:58.064 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:58.089 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:58.603 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:58.625 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:59.136 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a])
+00:46:59.161 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right']>li:nth-child(2) ul li a]
+00:46:59.177 INFO - Executing: [delete session: e0f187cc-8b0e-4a9a-a409-c8e412c57306])
+1549739819184	Marionette	INFO	Stopped listening on port 49795
+[Child 2636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2636, Chrome_ChildThread][Parent 18300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 18300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[GPU 424,
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ Chrome_ChildThread] W
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+00:47:01.718 INFO - Done: [delete session: e0f187cc-8b0e-4a9a-a409-c8e412c57306]

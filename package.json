@@ -1,0 +1,31 @@
+{
+  "name": "GMP_UI_AUTOMATION",
+  "version": "1.0.0",
+  "description": "This is an end to end node testing framework called nightwatch to test the MMP web application.",
+  "main": "globals.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nightwatch",
+    "lint": "eslint {utils,tests,testData,pages}/**/*.js",
+    "pre-push": "check-dependencies && npm run lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "check-dependencies": "^1.1.0",
+    "handlebars": "^4.0.12",
+    "nightwatch": "^0.9.21",
+    "nightwatch-html-reporter": "^2.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.19.1"
+  }
+}

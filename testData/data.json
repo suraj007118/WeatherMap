@@ -1,0 +1,15 @@
+{
+    "validCitySearch":"Tokyo, JP",
+    "invalidCitySearch":"FFFF",
+    "helpfulLinks":["Weather","Maps","Guide","API","Price","Partners","Stations","Widgets","Blog"],
+    "seatchBtnLabel":"Search",
+    "invalidSearchAlertMessage":"Not found",
+    "weatherInfoText":"temperature from",
+    "launchPageTitle" : "Current weather and forecasts in your city",
+    "signInUrl": "https://home.openweathermap.org/users/sign_in",
+    "signUpUrl": "https://home.openweathermap.org/users/sign_up"
+    
+
+    
+
+}

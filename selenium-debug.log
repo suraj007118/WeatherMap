@@ -1,0 +1,176 @@
+11:52:00.560 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+11:52:00.560 INFO - Launching a standalone Selenium Server
+2019-02-10 11:52:00.594:INFO::main: Logging initialized @309ms to org.seleniumhq.jetty9.util.log.StdErrLog
+11:52:00.689 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:52:00.689 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+11:52:00.690 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:52:00.690 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:52:00.691 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2019-02-10 11:52:00.784:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2019-02-10 11:52:00.830:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2019-02-10 11:52:01.158:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2019-02-10 11:52:01.159:INFO:osjs.Server:main: Started @875ms
+11:52:01.160 INFO - Selenium Server is up and running
+11:52:01.474 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+11:52:01.527 INFO - Executing: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:52:01.539 INFO - Creating a new session for Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 26547
+Only local connections are allowed.
+11:52:06.662 INFO - Detected dialect: OSS
+11:52:06.693 INFO - Done: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:52:06.743 INFO - Executing: [maximise window])
+11:52:06.971 INFO - Done: [maximise window]
+11:52:06.979 INFO - Executing: [get: https://openweathermap.org/])
+11:52:12.771 INFO - Done: [get: https://openweathermap.org/]
+11:52:12.784 INFO - Executing: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:52:12.849 INFO - Done: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:52:12.858 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: div[class='row search-cities'] input[id=q]]])
+11:52:12.901 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: div[class='row search-cities'] input[id=q]]]
+11:52:12.909 INFO - Executing: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:52:12.931 INFO - Done: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:52:12.940 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: div[class='row search-cities'] input[id=q]]])
+11:52:12.965 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: div[class='row search-cities'] input[id=q]]]
+11:52:12.974 INFO - Executing: [find element: By.cssSelector: button[class='btn btn-orange']])
+11:52:13.006 INFO - Done: [find element: By.cssSelector: button[class='btn btn-orange']]
+11:52:13.010 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: button[class='btn btn-orange']]])
+11:52:13.039 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: button[class='btn btn-orange']]]
+11:52:13.047 INFO - Executing: [find element: By.cssSelector: a[class='navbar-brand'] img])
+11:52:13.078 INFO - Done: [find element: By.cssSelector: a[class='navbar-brand'] img]
+11:52:13.084 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: a[class='navbar-brand'] img]])
+11:52:13.153 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: a[class='navbar-brand'] img]]
+11:52:13.165 INFO - Executing: [find element: By.cssSelector: h2[class='widget__title']])
+11:52:13.197 INFO - Done: [find element: By.cssSelector: h2[class='widget__title']]
+11:52:13.202 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: h2[class='widget__title']]])
+11:52:13.236 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: h2[class='widget__title']]]
+11:52:13.243 INFO - Executing: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a])
+11:52:13.292 INFO - Done: [find elements: By.cssSelector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]
+11:52:13.299 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.328 INFO - Done: [get text: 4 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.334 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.360 INFO - Done: [get text: 5 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.366 INFO - Executing: [get text: 6 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.390 INFO - Done: [get text: 6 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.394 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.415 INFO - Done: [get text: 7 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.419 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.444 INFO - Done: [get text: 8 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.448 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.469 INFO - Done: [get text: 9 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.474 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.496 INFO - Done: [get text: 10 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.500 INFO - Executing: [get text: 11 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.525 INFO - Done: [get text: 11 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.529 INFO - Executing: [get text: 12 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]])
+11:52:13.553 INFO - Done: [get text: 12 [[ChromeDriver: chrome on XP (01944d390cdbbe83c7f9b0ccd3183e6c)] -> css selector: ul[class='nav navbar-nav navbar-right'] li[class^='nav__item']>a]]
+11:52:13.558 INFO - Executing: [delete session: a9d3c218-4eaa-4aa8-8247-834755369c18])
+11:52:15.079 INFO - Done: [delete session: a9d3c218-4eaa-4aa8-8247-834755369c18]
+11:52:15.094 INFO - Executing: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:52:15.097 INFO - Creating a new session for Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 31160
+Only local connections are allowed.
+11:52:18.614 INFO - Detected dialect: OSS
+11:52:18.618 INFO - Done: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:52:18.628 INFO - Executing: [maximise window])
+11:52:18.767 INFO - Done: [maximise window]
+11:52:18.770 INFO - Executing: [get: https://openweathermap.org/])
+11:52:24.880 INFO - Done: [get: https://openweathermap.org/]
+11:52:24.886 INFO - Executing: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:52:24.912 INFO - Done: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:52:24.916 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[class='row search-cities'] input[id=q]]])
+11:52:24.937 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[class='row search-cities'] input[id=q]]]
+11:52:24.943 INFO - Executing: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:52:24.961 INFO - Done: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:52:24.964 INFO - Executing: [clear: 0 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[class='row search-cities'] input[id=q]]])
+11:52:25.012 INFO - Done: [clear: 0 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[class='row search-cities'] input[id=q]]]
+11:52:25.016 INFO - Executing: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:52:25.029 INFO - Done: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:52:25.034 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[class='row search-cities'] input[id=q]], [T, o, k, y, o, ,,  , J, P]])
+11:52:25.162 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[class='row search-cities'] input[id=q]], [T, o, k, y, o, ,,  , J, P]]
+11:52:25.167 INFO - Executing: [find element: By.cssSelector: button[class='btn btn-orange']])
+11:52:25.193 INFO - Done: [find element: By.cssSelector: button[class='btn btn-orange']]
+11:52:25.197 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: button[class='btn btn-orange']]])
+11:52:59.286 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: button[class='btn btn-orange']]]
+11:52:59.292 INFO - Executing: [find elements: By.cssSelector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a])
+11:52:59.314 INFO - Done: [find elements: By.cssSelector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a]
+11:52:59.319 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a]])
+11:52:59.336 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a]]
+11:52:59.340 INFO - Executing: [get current url])
+11:52:59.347 INFO - Done: [get current url]
+11:52:59.353 INFO - Executing: [find element: By.cssSelector: div[id='forecast_list_ul'] tbody])
+11:52:59.373 INFO - Done: [find element: By.cssSelector: div[id='forecast_list_ul'] tbody]
+11:52:59.376 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody]])
+11:52:59.396 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody]]
+11:52:59.412 INFO - Executing: [find element: By.cssSelector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a])
+11:52:59.433 INFO - Done: [find element: By.cssSelector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a]
+11:52:59.436 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a]])
+11:52:59.458 INFO - Done: [get text: 2 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) b a]]
+11:52:59.462 INFO - Executing: [find element: By.cssSelector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) p:first-of-type])
+11:52:59.479 INFO - Done: [find element: By.cssSelector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) p:first-of-type]
+11:52:59.482 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) p:first-of-type]])
+11:52:59.508 INFO - Done: [get text: 4 [[ChromeDriver: chrome on XP (d2cb4dd1613056f751722139b5376605)] -> css selector: div[id='forecast_list_ul'] tbody tr td:nth-child(2) p:first-of-type]]
+11:52:59.521 INFO - Executing: [delete session: 10647ac1-7427-4345-9e9f-c1040f71e1af])
+11:53:00.476 INFO - Done: [delete session: 10647ac1-7427-4345-9e9f-c1040f71e1af]
+11:53:00.501 INFO - Executing: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:53:00.502 INFO - Creating a new session for Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 41161
+Only local connections are allowed.
+11:53:03.882 INFO - Detected dialect: OSS
+11:53:03.886 INFO - Done: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:53:03.896 INFO - Executing: [maximise window])
+11:53:04.030 INFO - Done: [maximise window]
+11:53:04.036 INFO - Executing: [get: https://openweathermap.org/])
+11:53:09.889 INFO - Done: [get: https://openweathermap.org/]
+11:53:09.894 INFO - Executing: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:53:09.920 INFO - Done: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:53:09.925 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[class='row search-cities'] input[id=q]]])
+11:53:09.943 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[class='row search-cities'] input[id=q]]]
+11:53:09.948 INFO - Executing: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:53:09.963 INFO - Done: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:53:09.966 INFO - Executing: [clear: 0 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[class='row search-cities'] input[id=q]]])
+11:53:10.003 INFO - Done: [clear: 0 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[class='row search-cities'] input[id=q]]]
+11:53:10.007 INFO - Executing: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:53:10.019 INFO - Done: [find element: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:53:10.024 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[class='row search-cities'] input[id=q]], [F, F, F, F]])
+11:53:10.099 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[class='row search-cities'] input[id=q]], [F, F, F, F]]
+11:53:10.104 INFO - Executing: [find element: By.cssSelector: button[class='btn btn-orange']])
+11:53:10.124 INFO - Done: [find element: By.cssSelector: button[class='btn btn-orange']]
+11:53:10.128 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: button[class='btn btn-orange']]])
+11:53:14.129 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: button[class='btn btn-orange']]]
+11:53:14.135 INFO - Executing: [find elements: By.cssSelector: input[id='search_str']])
+11:53:14.158 INFO - Done: [find elements: By.cssSelector: input[id='search_str']]
+11:53:14.166 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: input[id='search_str']]])
+11:53:14.191 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: input[id='search_str']]]
+11:53:14.195 INFO - Executing: [get current url])
+11:53:14.203 INFO - Done: [get current url]
+11:53:14.214 INFO - Executing: [find element: By.cssSelector: div[id='forecast_list_ul'] div[class='alert alert-warning']])
+11:53:14.234 INFO - Done: [find element: By.cssSelector: div[id='forecast_list_ul'] div[class='alert alert-warning']]
+11:53:14.238 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[id='forecast_list_ul'] div[class='alert alert-warning']], innerHTML])
+11:53:14.248 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on XP (1625a3a2a8dc74af47009e4b9b3806c9)] -> css selector: div[id='forecast_list_ul'] div[class='alert alert-warning']], innerHTML]
+11:53:14.252 INFO - Executing: [delete session: 8e157696-ce95-48f9-b336-efb94d178f54])
+11:53:15.251 INFO - Done: [delete session: 8e157696-ce95-48f9-b336-efb94d178f54]
+11:53:15.262 INFO - Executing: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:53:15.263 INFO - Creating a new session for Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 2004
+Only local connections are allowed.
+11:53:18.642 INFO - Detected dialect: OSS
+11:53:18.645 INFO - Done: [new session: Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, acceptInsecureCerts=true, skip_testcases_on_fail=false, name=Weather Map Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:53:18.651 INFO - Executing: [maximise window])
+11:53:18.793 INFO - Done: [maximise window]
+11:53:18.800 INFO - Executing: [get: https://openweathermap.org/])
+11:53:24.867 INFO - Done: [get: https://openweathermap.org/]
+11:53:24.872 INFO - Executing: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]])
+11:53:24.896 INFO - Done: [find elements: By.cssSelector: div[class='row search-cities'] input[id=q]]
+11:53:24.900 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (5db265d7b696335a1a8e2fe9d6cc8a17)] -> css selector: div[class='row search-cities'] input[id=q]]])
+11:53:24.918 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (5db265d7b696335a1a8e2fe9d6cc8a17)] -> css selector: div[class='row search-cities'] input[id=q]]]
+11:53:24.922 INFO - Executing: [find element: By.cssSelector: div[class=row] div[class$='hidden-xs'] a:nth-child(3)])
+11:53:24.941 INFO - Done: [find element: By.cssSelector: div[class=row] div[class$='hidden-xs'] a:nth-child(3)]
+11:53:24.946 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on XP (5db265d7b696335a1a8e2fe9d6cc8a17)] -> css selector: div[class=row] div[class$='hidden-xs'] a:nth-child(3)], href])
+11:53:24.966 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on XP (5db265d7b696335a1a8e2fe9d6cc8a17)] -> css selector: div[class=row] div[class$='hidden-xs'] a:nth-child(3)], href]
+11:53:24.970 INFO - Executing: [find element: By.cssSelector: div[class=row] div[class$='hidden-xs'] a:nth-child(2)])
+11:53:24.996 INFO - Done: [find element: By.cssSelector: div[class=row] div[class$='hidden-xs'] a:nth-child(2)]
+11:53:24.999 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on XP (5db265d7b696335a1a8e2fe9d6cc8a17)] -> css selector: div[class=row] div[class$='hidden-xs'] a:nth-child(2)], href])
+11:53:25.008 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on XP (5db265d7b696335a1a8e2fe9d6cc8a17)] -> css selector: div[class=row] div[class$='hidden-xs'] a:nth-child(2)], href]
+11:53:25.025 INFO - Executing: [delete session: 34c41e73-6010-43b3-834f-8674347f816f])
+11:53:25.981 INFO - Done: [delete session: 34c41e73-6010-43b3-834f-8674347f816f]
