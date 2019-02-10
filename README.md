@@ -33,7 +33,7 @@ To run the test user below command (with addtional flag --reporter)
 
 ## Test cases covered in smoke suite
 
-* 1. TC001:VerifyLaunchPageTest -
+* 1.TC001:VerifyLaunchPageTest -
 	* scope- Asserts search button, search text, page title and site Logo being most important and must have.
 	       Also, verifies Labelsd of 9 information links.
 
