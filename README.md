@@ -45,7 +45,7 @@ Test were run successfully against chorme(v72.0.36) and Firefox(v65.0) browsers 
 * Dockerized selenium grid for test case execution
 	* Pre-requisite:
 		* windows 10 professional 64 bit
-		* docker for windows (latest)
+		* [docker for windows](https://docs.docker.com/docker-for-windows/install/)
 
 	You can setup selenium grid with 1 chrome and 1 firefox container which can have max 10 browser sessions at a time.
 	This containers would run on your local and you can still use user machine for regular work without itteruption.
