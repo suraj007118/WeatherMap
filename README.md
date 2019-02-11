@@ -17,6 +17,7 @@ Note: code has been tested working with nightwatch 0.9.21 for version >=1.0 you 
 * npm install nightwatch-html-reporter
 
 ### Local machine execution
+* set 'settings.selenium.start_process' = true; within nightwatch.conf.js file
 * nightwatch tests/weatherMapTest.js --env firefox or
 * nightwatch tests/weatherMapTest.js --env chrome
 OR
@@ -24,7 +25,8 @@ OR
   * npm test
 
 ### docker selenium grid execution
-npm run docker-run
+* set 'settings.selenium.start_process' = false; within nightwatch.conf.js file
+* npm run docker-run
 
 Test were run successfully against chorme(v72.0.36) and Firefox(v65.0) browsers with above versions on windows 10 home version
 
